@@ -6,7 +6,8 @@ const ageInput = parseInt(prompt("Quanti anni hai"));
 const age = (ageInput);
 console.log(age);
 
-const ticketPrice = km * 0.21;
+const ticketPrice = km * 0.21; 
+
 console.log(ticketPrice);
 
 if (eta < 18) {
