@@ -7,13 +7,18 @@ const age = (ageInput);
 console.log(age);
 
 const ticketPrice = km * 0.21; 
-
 console.log(ticketPrice);
 
-if (eta < 18) {
-  sconto = 0.20; 
-} else if (eta > 65) {
-  sconto = 0.40; 
-} else {
-  sconto = 0;    
+let discount = 0;
+
+if (age > 65) {
+  discount = ticketPrice * 0.4;
 }
+else if (age < 18) {
+  discount = ticketPrice * 0.2;
+}
+else {
+  discount = 0;
+}
+const finalPrice = ticketPrice - discount;
+console.log(`Il prezzo finale è € ${finalPrice.toFixed(2)}`);
