@@ -23,3 +23,12 @@ per controllare che la vostra logica sui prezzi funzioni correttamente, provate 
 100km, 70 anni => prezzo corretto: €12.60
 
 Buon lavoro! 
+
+## SCOMPOSIZIONE IN SOTTO PROBLEMI
+1. chiedre all'utente il numero di chilometri da percorrere
+2. chiedere l'età dell'utente (passeggero) in anni
+3. calcolare il prezzo del biglietto
+4. determinare se applicare uno sconto
+5. calcolare il prezzo finale
+6. stampare il risultato
+
