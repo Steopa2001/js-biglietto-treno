@@ -1,9 +1,7 @@
-const kmInput = parseFloat(prompt("Quanti chilometri vuoi percorrere?"));
-const km = (kmInput);
+const km = parseFloat(prompt("Quanti chilometri vuoi percorrere?"));
 console.log(km);
 
-const ageInput = parseInt(prompt("Quanti anni hai"));
-const age = (ageInput);
+const age = parseInt(prompt("Quanti anni hai"));
 console.log(age);
 
 const ticketPrice = km * 0.21; 
@@ -21,4 +19,4 @@ else {
   discount = 0;
 }
 const finalPrice = ticketPrice - discount;
-console.log(`Il prezzo finale è € ${finalPrice.toFixed(2)}`);
+console.log(`Il prezzo finale è €${finalPrice.toFixed(2)}`);
